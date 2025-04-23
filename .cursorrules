@@ -1,0 +1,114 @@
+{
+  "version": "1.0",
+  "rules": [
+    {
+      "name": "avoid_main_panel_in_layout_sidebar",
+      "severity": "error",
+      "description": "ui.layout_sidebar() 내부에서 ui.main_panel()을 사용하지 마세요. 직접 카드나 다른 컴포넌트를 배치하세요.",
+      "pattern": "ui\\.layout_sidebar\\([\\s\\S]*?ui\\.main_panel\\([\\s\\S]*?\\)[\\s\\S]*?\\)",
+      "message": "ui.layout_sidebar() 내부에서 ui.main_panel()을 사용하면 Shiny에서 오류가 발생합니다. 대신 카드나 다른 컴포넌트를 직접 배치하세요."
+    },
+    {
+      "name": "use_core_syntax",
+      "severity": "error",
+      "description": "Shiny Express 구문 대신 Core 구문을 사용하세요.",
+      "pattern": "from shiny\\.express|@ui\\.page_|@render\\.[a-z]+\\s+def",
+      "message": "Shiny Express 구문을 사용하지 마세요. Core 구문(from shiny import)을 사용하세요."
+    },
+    {
+      "name": "use_consistent_module_naming",
+      "severity": "warning",
+      "description": "모듈 UI는 'ui'로, 서버 함수는 'server'로 일관되게 명명하세요.",
+      "pattern": "ui = [^\\s]+|def server\\([^)]*\\):",
+      "positivePattern": "ui = ui\\.|def server\\(input, output, session\\):",
+      "message": "모듈 UI 변수는 'ui'로, 서버 함수는 'server(input, output, session)'으로 일관되게 명명하세요."
+    },
+    {
+      "name": "card_should_have_header",
+      "severity": "warning",
+      "description": "ui.card()는 ui.card_header()를 포함해야 합니다.",
+      "pattern": "ui\\.card\\([^)]*?(?!ui\\.card_header)[^)]*?ui\\.output_",
+      "message": "ui.card() 내에 ui.card_header()를 포함하세요."
+    },
+    {
+      "name": "buttons_should_have_class",
+      "severity": "warning",
+      "description": "버튼에 적절한 부트스트랩 클래스를 적용하세요.",
+      "pattern": "ui\\.input_action_button\\([^,]+,[^,]+(?!class_=)",
+      "message": "버튼에 적절한 부트스트랩 클래스(예: class_=\"btn-primary\")를 추가하세요."
+    },
+    {
+      "name": "use_db_utils",
+      "severity": "warning",
+      "description": "SQLite 연결에 유틸리티 함수를 사용하세요.",
+      "pattern": "sqlite3\\.connect\\(",
+      "message": "데이터베이스 연결에는 app.utils.db의 유틸리티 함수(query_to_df, execute_query)를 사용하세요."
+    },
+    {
+      "name": "use_reactive_calc",
+      "severity": "info",
+      "description": "동일한 데이터를 여러 출력에서 사용할 때는 @reactive.Calc를 사용하세요.",
+      "pattern": "@render\\.[a-z]+[\\s\\S]*?query_to_df\\([\\s\\S]*?@render\\.[a-z]+[\\s\\S]*?query_to_df\\(",
+      "message": "여러 출력에서 동일한 쿼리를 사용할 때는 @reactive.Calc를 사용하여 데이터를 캐싱하는 것이 좋습니다."
+    },
+    {
+      "name": "use_proper_exception_handling",
+      "severity": "warning",
+      "description": "파일 처리나 데이터베이스 작업 시 적절한 예외 처리를 사용하세요.",
+      "pattern": "try:|except [A-Za-z]+:",
+      "positivePattern": "try:[\\s\\S]*?except [A-Za-z]+ as e:",
+      "message": "파일이나 데이터베이스 작업 시 적절한 예외 처리 구문을 사용하고 오류 메시지를 표시하세요."
+    },
+    {
+      "name": "prefer_database_aggregation",
+      "severity": "info",
+      "description": "데이터 집계는 가능한 데이터베이스 단에서 수행하세요.",
+      "pattern": "\\.groupby\\([^)]+\\)\\.[a-z]+\\(",
+      "message": "데이터 집계는 가능한 Python 대신 SQL 쿼리에서 수행하는 것이 성능상 좋습니다."
+    },
+    {
+      "name": "documenting_functions",
+      "severity": "info",
+      "description": "함수에 설명 주석을 추가하세요.",
+      "pattern": "def [a-zA-Z0-9_]+\\([^)]*\\):",
+      "positivePattern": "def [a-zA-Z0-9_]+\\([^)]*\\):[\\s]*\\n[\\s]*\"\"\"",
+      "message": "함수의 목적과 매개변수를 설명하는 주석을 추가하세요."
+    },
+    {
+      "name": "use_absolute_path_for_static_assets",
+      "severity": "error",
+      "description": "static_assets에는 항상 절대 경로를 사용하세요.",
+      "pattern": "static_assets\\s*=\\s*[\"'][^/][^\"']*[\"']",
+      "positivePattern": "static_assets\\s*=\\s*(?:www_dir|os\\.path\\.join\\(|os\\.path\\.abspath\\()",
+      "message": "static_assets에는 상대 경로 대신 절대 경로를 사용하세요. 예: os.path.join(current_dir, 'www')를 사용하세요."
+    },
+    {
+      "name": "avoid_session_send_custom_message",
+      "severity": "warning",
+      "description": "session.send_custom_message 사용 시 주의하세요.",
+      "pattern": "session\\.send_custom_message\\(",
+      "message": "session.send_custom_message는 비동기 함수입니다. 코루틴 안에서 사용하지 마세요. 대신 순수 JavaScript로 구현하거나 ui.tags.script를 사용하세요."
+    },
+    {
+      "name": "ensure_consistent_icon_sizes",
+      "severity": "warning",
+      "description": "아이콘 크기를 일관되게 유지하세요.",
+      "pattern": "<svg[^>]*width=[\"']\\d+[\"'][^>]*height=[\"']\\d+[\"']",
+      "message": "SVG 아이콘 크기를 일관되게 유지하고, 필요한 경우 viewBox 속성을 추가하세요. CSS 스타일링을 사용하여 크기를 제어하는 것이 좋습니다."
+    },
+    {
+      "name": "avoid_direct_html_in_ui",
+      "severity": "info",
+      "description": "가능한 ui.HTML() 대신 Shiny 컴포넌트를 사용하세요.",
+      "pattern": "ui\\.HTML\\(",
+      "message": "가능한 ui.HTML() 대신 Shiny UI 컴포넌트를 사용하세요. HTML이 필요한 경우 XSS 보안 위험을 고려하세요."
+    },
+    {
+      "name": "use_javascript_in_script_tag",
+      "severity": "warning",
+      "description": "JavaScript 코드는 script 태그 내에서만 사용하세요.",
+      "pattern": "ui\\.tags\\.script\\([^)]+\\$\\([^)]+\\)",
+      "message": "JavaScript 코드는 ui.tags.script() 내에서만 사용하세요. jQuery 이벤트 핸들링은 document.ready 내에서 수행하세요."
+    }
+  ]
+} 

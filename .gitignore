@@ -1,0 +1,64 @@
+# Python 관련 무시할 파일
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 가상 환경
+venv/
+ENV/
+env/
+
+# IDE 설정
+.idea/
+.vscode/
+*.swp
+*.swo
+.cursor/
+
+# 데이터베이스 파일
+*.db
+*.sqlite3
+*.sqlite
+
+# 로그
+*.log
+
+# 개인 설정 파일
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 테스트 및 캐시 파일
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+.hypothesis/
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+
+# 기타 파일
+.DS_Store
+Thumbs.db 

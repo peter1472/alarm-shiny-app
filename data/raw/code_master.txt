@@ -1,0 +1,111 @@
+TYPE	CODE	VALUE	CATEGORY	ENG_CATEGORY
+equipment	P1	모듈	공정	PROCESS
+equipment	P2	전극	공정	PROCESS
+equipment	P3	조립	공정	PROCESS
+equipment	P4	화성	공정	PROCESS
+equipment	R1	1F NC	Room	ROOM
+equipment	R2	1F Stacking	Room	ROOM
+equipment	R3	1F VD	Room	ROOM
+equipment	R4	1F 모듈 원자재	Room	ROOM
+equipment	R5	Cell Buffer	Room	ROOM
+equipment	R6	Cell 완제품	Room	ROOM
+equipment	R7	Foil	Room	ROOM
+equipment	R8	GF NC	Room	ROOM
+equipment	R9	GF Stacking	Room	ROOM
+equipment	R10	GF VD	Room	ROOM
+equipment	R11	GF 모듈 원자재	Room	ROOM
+equipment	R12	REEL	Room	ROOM
+equipment	R13	ROLL	Room	ROOM
+equipment	R14	Reel	Room	ROOM
+equipment	R15	Roll	Room	ROOM
+equipment	R16	모듈 완제품	Room	ROOM
+equipment	R17	모듈 원자재	Room	ROOM
+equipment	R18	분체	Room	ROOM
+equipment	R19	출하	Room	ROOM
+equipment	E1	Reel	설비	EQUIPMENT
+equipment	E2	Roll	설비	EQUIPMENT
+equipment	E3	VD	설비	EQUIPMENT
+equipment	E4	VD 전창고	설비	EQUIPMENT
+equipment	E5	VD 후창고	설비	EQUIPMENT
+equipment	E6	노칭	설비	EQUIPMENT
+equipment	E7	모듈 셀 버퍼	설비	EQUIPMENT
+equipment	E8	모듈 완제품	설비	EQUIPMENT
+equipment	E9	모듈 원자재	설비	EQUIPMENT
+equipment	E10	모듈 조립	설비	EQUIPMENT
+equipment	E11	모듈조립	설비	EQUIPMENT
+equipment	E12	분체	설비	EQUIPMENT
+equipment	E13	셀 완제품	설비	EQUIPMENT
+equipment	E14	셀버퍼	설비	EQUIPMENT
+equipment	E15	셀완제품	설비	EQUIPMENT
+equipment	E16	스테킹	설비	EQUIPMENT
+equipment	E17	슬리터	설비	EQUIPMENT
+equipment	E18	코터	설비	EQUIPMENT
+equipment	E19	코프슬	설비	EQUIPMENT
+equipment	E20	포일	설비	EQUIPMENT
+equipment	E21	프레스	설비	EQUIPMENT
+equipment	E22	화성 셀버퍼	설비	EQUIPMENT
+equipment	G1	1F 양극 Reel-노칭 AGV	설비그룹	EQ_GROUP
+equipment	G2	1F 음극 Reel-노칭 AGV	설비그룹	EQ_GROUP
+equipment	G3	1F 조립 REEL CNV	설비그룹	EQ_GROUP
+equipment	G4	FOIL STK	설비그룹	EQ_GROUP
+equipment	G5	FOIL/ROLL AGV	설비그룹	EQ_GROUP
+equipment	G6	GF 분체 CNV	설비그룹	EQ_GROUP
+equipment	G7	GF 양극 Roll AGV	설비그룹	EQ_GROUP
+equipment	G8	GF 음극 Roll AGV	설비그룹	EQ_GROUP
+equipment	G9	GF 전극 REEL CNV	설비그룹	EQ_GROUP
+equipment	G10	REEL STK	설비그룹	EQ_GROUP
+equipment	G11	ROLL STK	설비그룹	EQ_GROUP
+equipment	G12	VD AGV	설비그룹	EQ_GROUP
+equipment	G13	VD 설비 포트	설비그룹	EQ_GROUP
+equipment	G14	VD 순환물류 CNV	설비그룹	EQ_GROUP
+equipment	G15	VD 전창고	설비그룹	EQ_GROUP
+equipment	G16	VD 전창고 CNV	설비그룹	EQ_GROUP
+equipment	G17	VD 전창고 수동 포트 (가상 설비)	설비그룹	EQ_GROUP
+equipment	G18	VD 회수물류 CNV	설비그룹	EQ_GROUP
+equipment	G19	VD 후창고	설비그룹	EQ_GROUP
+equipment	G20	노칭 AGV	설비그룹	EQ_GROUP
+equipment	G21	노칭 로봇 포트	설비그룹	EQ_GROUP
+equipment	G22	노칭 설비 포트	설비그룹	EQ_GROUP
+equipment	G23	노칭 장폭 롤 버퍼 포트	설비그룹	EQ_GROUP
+equipment	G24	모듈 OQC 검사 장비 포트	설비그룹	EQ_GROUP
+equipment	G25	모듈 셀 버퍼 AGV	설비그룹	EQ_GROUP
+equipment	G26	모듈 셀 포장기 포트	설비그룹	EQ_GROUP
+equipment	G27	모듈 셀 해체기 포트	설비그룹	EQ_GROUP
+equipment	G28	모듈 완제품 STK	설비그룹	EQ_GROUP
+equipment	G29	모듈 완제품 입출고 CNV	설비그룹	EQ_GROUP
+equipment	G30	모듈 원자재 AGV	설비그룹	EQ_GROUP
+equipment	G31	모듈 원자재 STK	설비그룹	EQ_GROUP
+equipment	G32	모듈 원자재 공급 CNV	설비그룹	EQ_GROUP
+equipment	G33	모듈 원자재 입출고 CNV	설비그룹	EQ_GROUP
+equipment	G34	모듈 입출고+브릿지 CNV	설비그룹	EQ_GROUP
+equipment	G35	모듈 조립 AGV	설비그룹	EQ_GROUP
+equipment	G36	모듈 조립 설비 포트	설비그룹	EQ_GROUP
+equipment	G37	분체 AGV	설비그룹	EQ_GROUP
+equipment	G38	분체 CNV	설비그룹	EQ_GROUP
+equipment	G39	분체 STK	설비그룹	EQ_GROUP
+equipment	G40	분체 Station	설비그룹	EQ_GROUP
+equipment	G41	셀 버퍼 STK	설비그룹	EQ_GROUP
+equipment	G42	셀 완제품 STK	설비그룹	EQ_GROUP
+equipment	G43	셀 완제품 입출고 CNV	설비그룹	EQ_GROUP
+equipment	G44	스테킹 AGV	설비그룹	EQ_GROUP
+equipment	G45	스테킹 설비 포트	설비그룹	EQ_GROUP
+equipment	G46	슬리터 이재기	설비그룹	EQ_GROUP
+equipment	G47	전극 가상 CNV	설비그룹	EQ_GROUP
+equipment	G48	조립 가상 CNV	설비그룹	EQ_GROUP
+equipment	G49	코터 이재기	설비그룹	EQ_GROUP
+equipment	G50	프레스 이재기	설비그룹	EQ_GROUP
+equipment	G51	화성 셀 검사 설비 포트	설비그룹	EQ_GROUP
+equipment	G52	화성 셀 버퍼 AGV	설비그룹	EQ_GROUP
+equipment	C1	물류	설비구분	EQ_CLASS
+equipment	C2	생산	설비구분	EQ_CLASS
+equipment	L1	AGV	물류	LOGISTICS
+equipment	L2	CNV	물류	LOGISTICS
+equipment	L3	STK	물류	LOGISTICS
+equipment	L4	이재기	물류	LOGISTICS
+equipment	L5	포트	물류	LOGISTICS
+equipment	F1	1F	층	FLOOR
+equipment	F2	GF	층	FLOOR
+equipment	F3	공통	층	FLOOR
+equipment	PL1	공통	극성	POLARITY
+equipment	PL2	양극	극성	POLARITY
+equipment	PL3	음극	극성	POLARITY

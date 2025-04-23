@@ -1,0 +1,417 @@
+ALARMID	ALARMCODE	CATEGORY	DESCRIPTION	SEVERITY	ALARM_CAUSE	SEVERITY_DESC	SEVERITY_RATIO
+1	0	시스템	PORT BCR READ FAIL	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+1	6	설비이상	INV-01 Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+3	6	설비이상	INV-01 Ready Off Error 	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4	6	설비이상	INV-02 Ready Off Error 	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+5	6	설비이상	INV-01 RunTimeOver Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+6	6	설비이상	INV-02 RunTimeOver Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+7	4	통신	[ERR007] [M5007] THREAD NON RESPONSIVE	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+7	6	설비이상	INV CP 01 POWER TRIP	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+8	6	설비이상	INV CP 02 POWER TRIP	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+10	6	설비이상	STP-01 Up Cylinder Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+11	6	설비이상	STP-01 Down Cylinder Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+16	6	설비이상	RESERVED	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+23	0	시스템	[SC] 23.Spare	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+24	0	시스템	[SC] 24.Spare	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+28	1	안전	Light Curtain-01 Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+28	6	설비이상	Light Curtain-01 Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+29	6	설비이상	Light Curtain-02 Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+30	0	시스템	RTV CAR Return to Origin Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+30	6	설비이상	Tray Abnomal Error-01	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+32	6	설비이상	RESERVED	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+33	6	설비이상	Conveyor Run LIFT POT Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+35	0	시스템	RTV CAR FIBER Communication ERROR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+36	0	시스템	RTV CAR DistanceSensor TIME DELAY	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+39	0	시스템	MCP REAR DOOR OPEN2	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+40	6	설비이상	PIO BUSY ON Timer Over Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+41	6	설비이상	PIO Complete ON Timer Over Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+42	6	설비이상	[SC] 42.Travel Driver Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+43	2	감지	[SC] 43.Travel Overload Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+47	0	시스템	RTV CAR L/R CARRIER DET Sensor DELAY	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+47	6	설비이상	Tray Data Mismatch Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+47	9	프로세스	Tray Data Mismatch Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+48	6	설비이상	Tray ID LOSS 	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+48	8	데이터	Tray ID LOSS 	2	DataError	낮음 (모니터링 필요, 경미한 데이터 문제)	1.0%
+50	9	프로세스	CIM Alarm	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+51	6	설비이상	[SC] 51.Travel First Movement Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+53	2	감지	[ERR053] [M5053] NO SCAN FROM FRONT SCANNER	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+57	2	감지	[ERR057] [M5057] POSITION CONFIDENCE LOW	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+60	4	통신	[ERR060] [M5060] LOCALIZE NOT READY	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+61	4	통신	[ERR061] [M5061] DEADREC HIGH DT	2	설비기인	낮음 (모니터링 필요, 경미한 데이터 문제)	1.0%
+62	4	통신	[ERR062] [M5062] POSCONT HIGH DT	2	설비기인	낮음 (모니터링 필요, 경미한 데이터 문제)	1.0%
+90	2	감지	[SC] 90.Fork#1 Center Error When First Active	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+91	2	감지	[SC] 91.Fork#2 Center Error When First Active	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+101	2	감지	[ERR101] [M5101] VEH INTE HIGH DT	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+102	2	감지	[ERR102] [M5102] MOTOR CONTROL FAULT	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+121	2	감지	[SC] 121.Fork#2 Load Position Error When Active	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+122	2	감지	[SC] 122.Load Oversize Error(Left)	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+123	2	감지	[SC] 123.Load Oversize Error(Right)	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+124	2	감지	[SC] 124.Load Collapse Error(Left)	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+126	8	데이터	[SC] 126.Fork#1 Double Storage Error	3	DataError	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+128	8	데이터	[SC] 128.Fork#1 Empty Release Error(Rack)	3	DataError	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+131	8	데이터	[SC] 131.Fork#1 Empty Release Error(Worktable)	3	DataError	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+146	8	데이터	[SC] 146.Ready Off During Forking	2	DataError	낮음 (모니터링 필요, 경미한 데이터 문제)	1.0%
+147	8	데이터	[SC] 147.Port Interface Error	3	DataError	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+148	2	감지	[SC] 148.Hoist Brake Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+149	6	설비이상	[SC] 149.Material Loosening(Left)	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+150	6	설비이상	[SC] 150.Material Loosening(Right)	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+151	2	감지	[ERR151] [M5151] POS CONT HEADING ERR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+152	2	감지	[ERR152] [M5152] POS CONT POS ERR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+153	2	감지	[ERR153] [M5153] VEH INTE NOT READY	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+160	9	프로세스	[SC] 160.Destination Operation Error#1	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+161	9	프로세스	[SC] 161.Destination Operation Error#2	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+163	6	설비이상	INV-01 RunTimeOver Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+164	6	설비이상	INV-02 RunTimeOver Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+168	6	설비이상	Undefined Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+169	9	프로세스	[SC] 169.MCP Auto/Manual Mode Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+180	6	설비이상	Data Miss Match Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+180	9	프로세스	Data Miss Match Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+181	6	설비이상	Tray Data & Sensor Mismatch Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+185	6	설비이상	[SC] 185.MCP Temp Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+187	2	감지	[SC] 187.Travel SSI Converter Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+190	6	설비이상	Port Interface  Error 1	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+196	6	설비이상	[SC] 196.MCP AP Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+200	9	프로세스	[SC] 200.MCP Mode Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+204	4	통신	[ERR204] [M5204] DESTINATION UPDATE FAILED	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+209	6	설비이상	[SC] 209.SCP Safety Relay Power Trip	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+230	6	설비이상	Undefined Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+233	2	감지	[SC] 233.Hoist RLS Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+235	1	안전	[SC] 235.Area Sensor Detected Error(Right)	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+236	1	안전	[SC] 236.Light Curtain Detected Error(SCS)	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+239	1	안전	[SC] 239.Door Open Error(HP)	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+240	1	안전	[SC] 240.Door Open Error(OP)	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+240	6	설비이상	Port Interface  Error 1	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+245	1	안전	[SC] 245.MCP Safety Relay Off	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+257	65	안전장치	[R1191_0][INLET CV2][A]IN BCR READ FAIL	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+258	65	안전장치	[R1191_1][INLET CV2][A]CELL BOX VALIDATION RETURN CODE NG	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+259	65	안전장치	[R1191_2][INLET CV2][A]IN BCR DATA & PALLET ID MISMATCH	5	DataError	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+262	2	감지	[ERR262] [M5262] SAFE OUTPUTS ACTIVE	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+290	6	설비이상	Undefined Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+305	65	안전장치	[R1194_0][INLET CV2][A]IN LIGHT CURTAIN DETECT ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+370	0	시스템	INV RunTimeOver Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+383	0	시스템	Stopper Up Cylinder Sensor Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+389	6	설비이상	Light Curtain-01 Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+390	6	설비이상	Manual Port ID LOSS Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+391	6	설비이상	Manual Port Data Miss Match Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+397	6	설비이상	Tray ID LOSS 	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+400	0	시스템	UNKNOWN ALARM CODE	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+401	1	안전	Emergency Error 1	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+401	6	설비이상	Emergency Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+402	1	안전	Emergency Error 2	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+402	6	설비이상	Safety Door Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+408	0	시스템	UNKNOWN ALARM CODE	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+409	6	설비이상	SERVICE Power Trip Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+423	0	시스템	Pre-Align Cylinder Detect Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+423	6	설비이상	OP MAINT CALL ON Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+430	6	설비이상	Robot Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+431	6	설비이상	Gripper #1 Clamping Moving Time Over Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+437	6	설비이상	Robot Movement Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+465	6	설비이상	Gripper #2 Unclamping Moving Time Over Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+466	6	설비이상	Shutter All Open I/L Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+474	6	설비이상	MG Full Detect Sensor Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+475	6	설비이상	MG1 Detect Senser Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+476	6	설비이상	MG2 Detect Senser Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+501	1	안전	[ERR002] [M6002] EMO2 FRONT	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+501	6	설비이상	INV-01 (CV) Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+501	65	안전장치	Vehicle No Response	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+502	6	설비이상	INV-01 (CV) Run Time Over Alarm 	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+502	65	안전장치	Vehicle No Command	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+505	1	안전	[ERR006] [M6006] EMO6 REAR	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+507	6	설비이상	INV-03 (DV) Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+523	2	감지	[ERR024] [M6024] BRAKE RELEASE	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+524	6	설비이상	[ERR025] [M6025] CAN STATUS ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+528	2	감지	[ERR029] [M6029] TIM READY ABNORMAL	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+529	6	설비이상	[ERR030] [M6030] NAVITEC COMM TIMEOUT	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+531	6	설비이상	[ERR032] [M6032] BAT#1 COMM TIMEOUT	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+532	6	설비이상	[ERR033] [M6033] BAT#2 COMM TIMEOUT	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+535	6	설비이상	Pallet Over Size Alarm	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+536	6	설비이상	[ERR037] [M6037] ACS STOP	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+540	2	감지	[ERR041] [M6041] POWER OFF	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+541	6	설비이상	PIO Complete ON Timer Over Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+543	6	설비이상	[ERR044] [M6044] ODSL#1 VALUE ABNORMAL	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+544	6	설비이상	[ERR045] [M6045] ODSL#2 VALUE ABNORMAL	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+547	6	설비이상	[ERR048] [M6048] T ALIGN ZONE ABNORMAL	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+548	6	설비이상	[ERR049] [M6049] X ALIGN ZONE ABNORMAL	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+549	1	안전	Light Curtain Alarm	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+549	6	설비이상	Light Curtain Alarm	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+550	6	설비이상	[RTV] Panel EMG	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+556	2	감지	[ERR057] [M6057] ACS EMERGENC Y	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+557	6	설비이상	[ERR058] [M6058] NODE ABNORMAL	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+558	6	설비이상	[RTV] Laser Sensor Fault	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+559	6	설비이상	[ERR060] [M6060] AUTO SELECT ABNORMAL	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+560	2	감지	[ERR061] [M6061] FRONT DOOR OPEN	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+561	2	감지	[ERR062] [M6062] REAR DOOR OPEN	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+562	6	설비이상	[RTV] Safety Power CP06 Trip	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+563	6	설비이상	[ERR064] [M6064] AUTO STEP TIMEOUT	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+564	6	설비이상	[ERR065] [M6065] LD/UD STEP TIMEOUT	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+565	6	설비이상	[ERR066] [M6066] GO STEP TIMEOUT	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+566	6	설비이상	[RTV] StoreAlt Time Over	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+568	6	설비이상	[ERR069] [M6069] LD/UD READY TIMEOUT	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+569	6	설비이상	[ERR070] [M6070] CARGO STATUS ABNORMAL	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+571	6	설비이상	[RTV] TR01 Inverter Alarm	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+572	2	감지	[ERR073] [M6073] FORK BUMPER#1	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+573	2	감지	[ERR074] [M6074] FORK BUMPER#2	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+574	6	설비이상	[RTV] CV01 Inverter Alarm	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+575	2	감지	[ERR076] [M6076] LIGHT CURTAIN1 DETECT	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+576	2	감지	[ERR077] [M6077] LIGHT CURTAIN2 DETECT	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+577	2	감지	[ERR078] [M6078] FORK1 OUT	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+577	6	설비이상	[RTV] SH01 Inverter Alarm	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+579	2	감지	[ERR080] [M6080] FRONT BUMPER DETECT	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+580	2	감지	[ERR081] [M6081] REAR BUMPER DETECT	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+586	2	감지	[ERR087] [M6087] REAR SCANNER ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+587	6	설비이상	[RTV] RTV CV Tray Postion Abnormal 	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+590	6	설비이상	[RTV] TR01 FWD Overrun 	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+591	6	설비이상	[ERR092] [M6092] READY OFF	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+594	6	설비이상	[RTV] RTV LIFTER LOAD LOAD 	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+596	6	설비이상	[ERR097] [M6097] CHARGE BUSY TIMEOUT	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+597	6	설비이상	[ERR098] [M6098] CHARGING TIMEOUT	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+598	6	설비이상	[ERR099] [M6099] CHARGING DISCONNECTED	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+603	6	설비이상	[ERR104] [M6104] SHOWER CRASH ROUTE	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+608	2	감지	[ERR109] [M6109] STACKING INTERLOCK	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+613	6	설비이상	[ERR114] [M6114] FORK1 DOUBLE COUNT	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+614	6	설비이상	[ERR115] [M6115] FORK2 DOUBLE COUNT	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+615	6	설비이상	[ERR116] [M6116] FORK1 LD/UD REQ NOT RECEIVED	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+616	6	설비이상	[ERR117] [M6117] FORK2 LD/UD REQ NOT RECEIVED	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+623	2	감지	[ERR124] [M6124] POSITION INITIAL LOSS	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+705	9	프로세스	No Define	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+728	6	설비이상	Light Curtain-01 Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+737	65	안전장치	[R1791_0][OUTLET CV2][A]OUT BCR READ FAIL	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+739	65	안전장치	[R1791_2][OUTLET CV2][A]OUT BCR DATA & PALLET ID MISMATCH	5	DataError	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+740	9	프로세스	No Define	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+741	9	프로세스	No Define	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+742	9	프로세스	No Define	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+747	6	설비이상	Tray Data Mismatch Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+747	9	프로세스	No Define	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+748	6	설비이상	Tray ID LOSS 	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+748	9	프로세스	No Define	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+785	65	안전장치	[R1794_0][OUTLET CV2][A]OUT LIGHT CURTAIN DETECT ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+806	9	프로세스	No Define	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+807	9	프로세스	No Define	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+811	9	프로세스	No Define	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+814	9	프로세스	No Define	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+841	9	프로세스	No Define	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+1001	6	설비이상	GROUP#1 Safety Relay Ready OFF Status	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1009	6	설비이상	GROUP#1 EMO#9 Pushed Status	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1029	6	설비이상	[ERR530] [M6530] Z-AXIS OVER CURRENT	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1030	6	설비이상	[ERR531] [M6531] Z-AXIS OVER VOLTAGE	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1031	6	설비이상	[ERR532] [M6532] Z-AXIS UNDER VOLTAGE	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1032	1	안전	DOOR 01 OPEN STATUS	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1033	1	안전	DOOR 02 OPEN STATUS	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1034	0	시스템	MCP SMC#1 DISCONNECTED ERROR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1035	6	설비이상	[ERR536] [M6536] Z-AXIS SERIAL ENCODER	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1038	0	시스템	MCP FRONT DOOR OPEN	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+1039	0	시스템	MCP REAR DOOR OPEN	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+1039	6	설비이상	[ERR540] [M6540] Z-AXIS FOLLOWIN G	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+1041	6	설비이상	[ERR542] [M6542] Z-AXIS OVERLOAD	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1042	1	안전	DOOR SLIDE 01 UNLOCK STATUS	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1045	6	설비이상	"[ERR546] [M6546] Z1-AXIS HW LIMIT ""-"""	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1049	6	설비이상	[ERR550] [M6550] Z1-AXIS SERVO STEP DT	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1052	0	시스템	MCP GF OP1 LIGHT CURTAIN DETECT ERROR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1060	0	시스템	MCP 2F OP1 LIGHT CURTAIN DETECT ERROR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1060	6	설비이상	SUB PANEL#1 FAN 02 Abnormal Status	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1061	0	시스템	MCP 2F OP2 LIGHT CURTAIN DETECT ERROR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1063	6	설비이상	SUB PANEL#2 CP 02 Tripped Status	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1068	6	설비이상	[ERR569] [M6569] Z-AXIS ORIGIN LOSS	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1071	6	설비이상	[ERR572] [M6572] Z-AXIS BALANCE 1-2	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1072	1	안전	GROUP#1 Light Curtain 01 Detect Status	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1073	1	안전	Light Curtain 02 Detect Status	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1081	0	시스템	CIM UNKNOWN ERROR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1081	1	안전	GROUP#1 Didn't Ready for Auto Mode Start	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1086	1	안전	GROUP#1 Servo Power is OFF during Auto Mode Change	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1089	6	설비이상	[ERR590] [M6590] Z-AXIS SERVO FEEDBACK	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1090	6	설비이상	[ERR591] [M6591] Z-AXIS ENC VAL ABNORMAL	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1092	6	설비이상	[ERR593] [M6593] ALIGN GENERIC	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1093	6	설비이상	[ERR594] [M6594] ALIGN OVER CURRENT	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1099	6	설비이상	[ERR600] [M6600] ALIGN SERIAL ENCODER	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1101	6	설비이상	Manufacture Abnormal Detection Timeout.	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1103	0	시스템	CRANE ANKLE LEFT DETECT ERROR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1103	6	설비이상	[ERR604] [M6604] ALIGN FOLLOWIN G	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+1105	6	설비이상	[ERR606] [M6606] ALIGN OVERLOAD	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1108	6	설비이상	"[ERR609] [M6609] ALIGN HW LIMIT ""+"""	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1109	6	설비이상	"[ERR610] [M6610] ALIGN HW LIMIT ""-"""	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1110	6	설비이상	"[ERR611] [M6611] ALIGN SW LIMIT ""+"""	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1111	6	설비이상	"[ERR612] [M6612] ALIGN SW LIMIT ""-"""	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1113	6	설비이상	Conveyor 02 Moving Time Over.	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1114	6	설비이상	[ERR615] [M6615] ALIGN ORIGIN LOSS	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1118	6	설비이상	Auto Step 01 Time Over	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1119	6	설비이상	Auto Step 01 Time Over	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1120	6	설비이상	EQ 01 PIO T01 Time Over	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1125	0	시스템	Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1140	6	설비이상	Error Occurred During BUFFER PIO Interface.	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1144	6	설비이상	S/W Push Abnomal Used	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1149	0	시스템	CRANE ABNORMAL START TIME OUT ERROR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1153	6	설비이상	[ERR654] [M6654] ALIGN SERVO FEEDBACK	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1154	6	설비이상	[ERR655] [M6655] ALIGN ENC VAL ABNORMAL	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1155	0	시스템	CRANE FORK LEFT HEIGHT CHECK OVER	4	Unknown	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1157	0	시스템	CRANE SEW TRAVEL X FAULT	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1157	6	설비이상	[ERR658] [M6658] T-AXIS OVER CURRENT	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1160	0	시스템	CRANE FORK RIGHT COLLAPSE DECTECT 1	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+1161	0	시스템	CRANE FORK RIGHT COLLAPSE DECTECT 2	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+1162	6	설비이상	Stopper 01 Unit Down time over.	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1163	6	설비이상	[ERR664] [M6664] T-AXIS SERIAL ENCODER	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1164	6	설비이상	[ERR665] [M6665] T-AXIS ENCODER DISCON	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1165	0	시스템	CRANE FORK LEFT COLLAPSE DECTECT 1	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+1166	0	시스템	CRANE FORK LEFT COLLAPSE DECTECT 2	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+1167	6	설비이상	[ERR668] [M6668] T-AXIS FOLLOWIN G	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+1169	6	설비이상	[ERR670] [M6670] T-AXIS OVERLOAD	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1172	0	시스템	CRANE RACK POSITION NOT DETECT ERROR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1172	6	설비이상	"[ERR673] [M6673] T-AXIS HW LIMIT ""+"""	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1173	0	시스템	CRANE STK ACTION 5 Min TIMEOVER ERROR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1174	6	설비이상	"[ERR675] [M6675] T-AXIS SW LIMIT ""+"""	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1175	6	설비이상	"[ERR676] [M6676] T-AXIS SW LIMIT ""-"""	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1178	6	설비이상	[ERR679] [M6679] T-AXIS ORIGIN LOSS	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1189	0	시스템	CRANE SHELF In Abort (Double Cargo)	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+1190	0	시스템	CRANE SHELF In Abort (Empty Cargo)	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+1199	6	설비이상	Servo Motor Alarm Occoured.	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1218	6	설비이상	[ERR719] [M6719] T-AXIS ENC VAL ABNORMAL	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1220	6	설비이상	[ERR721] [M6721] FORK1 GENERIC	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1221	6	설비이상	[ERR722] [M6722] FORK1 OVER CURRENT	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1227	6	설비이상	[ERR728] [M6728] FORK1 SERIAL ENCODER	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1231	6	설비이상	[ERR732] [M6732] FORK1 FOLLOWIN G	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+1233	6	설비이상	[ERR734] [M6734] FORK1 OVERLOAD	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1236	6	설비이상	"[ERR737] [M6737] FORK1 HW LIMIT ""+"""	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1237	6	설비이상	"[ERR738] [M6738] FORK1 HW LIMIT ""-"""	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1238	6	설비이상	"[ERR739] [M6739] FORK1 SW LIMIT ""+"""	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1239	6	설비이상	"[ERR740] [M6740] FORK1 SW LIMIT ""-"""	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1241	6	설비이상	[ERR742] [M6742] FORK1 SERVO STEP DT	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1242	6	설비이상	[ERR743] [M6743] FORK1 ORIGIN LOSS	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1243	6	설비이상	[ERR744] [M6744] FORK1 HOME ENA ABNORMA	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1254	6	설비이상	[ERR755] [M6755] FORK1 INPLACE ABNORMAL	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1281	6	설비이상	[ERR782] [M6782] FORK1 SERVO FEEDBACK	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1285	6	설비이상	[ERR786] [M6786] FORK2 OVER CURRENT	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+1292	6	설비이상	[ERR793] [M6793] FORK2 ENCODER DISCON	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1295	6	설비이상	[ERR796] [M6796] FORK2 FOLLOWIN G	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+1303	6	설비이상	"[ERR804] [M6804] FORK2 SW LIMIT ""-"""	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1306	6	설비이상	[ERR807] [M6807] FORK2 ORIGIN LOSS	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1324	0	시스템	HS DOWN TIME OVER ERROR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1333	0	시스템	C/V DATA MISS MATCH EXIST ERROR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1334	0	시스템	C/V DATA MISS MATCH NOTHING ERROR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1343	0	시스템	STK LIGHT CURTAIN DETECT ERROR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1346	0	시스템	C/V LIGHT CURTAIN DETECT ERROR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1347	0	시스템	HOME RETURN FAIL ERROR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1382	0	시스템	C/V BARCODE FAULT WARNING	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1501	0	시스템	CRANE_PLC_INTERFACE_ERROR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1505	0	시스템	CRANE_MOVE_TIMEOUT	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1508	0	시스템	CRANE CARRIER SENSOR DATA MISMATCH	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+1600	0	시스템	PORT_VALIDATION_NG	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+1601	0	시스템	PORT_VALIDATION_TIMEOUT	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+1702	0	시스템	PLC_WRITE_FAIL	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+1704	0	시스템	PLC_HEARTBEAT_STOP	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+2022	0	시스템	MC01,MC02 ON TROLLEY AC POWER	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+2033	0	시스템	ER01,02 SAFETY RELAY ON CHECK	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+2054	0	시스템	Door Open/Close Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+2101	0	시스템	RDB#2CP06 TRIP INVERTER POWER#6	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+2101	6	설비이상	Manufacture Abnormal Detection Timeout.	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+2116	6	설비이상	FLS,RLS Sensor Off Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+2145	0	시스템	RDB#4 Maint Key Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+2189	6	설비이상	AGV retry count exceeded.	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+2200	6	설비이상	Servo Motor Alarm Occoured.	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+3004	0	시스템	Turn Home Pos Time Over Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+3005	0	시스템	DIV Up/Down Time Over Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+3008	0	시스템	Pallet Overhang DET Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+3010	0	시스템	BCR Reader Response State Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+3011	0	시스템	Product DETECT Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+3012	0	시스템	SLOW DETECT Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+3013	0	시스템	STOP DETECT Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+3013	65	안전장치	  STOP DETECT Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+3014	0	시스템	Work Data Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+3015	0	시스템	INTERFACE Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+3018	0	시스템	DIV redirect CV STOP error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+3023	0	시스템	MCS BUZZER Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+3025	0	시스템	Cycle Stop Time Over Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+3025	65	안전장치	  Cycle Stop Time Over Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+3033	0	시스템	Inverter Not Ready CW/CCW Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+3037	0	시스템	Conveyor Run Time Over Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+3038	0	시스템	Chain CV Run Time Over Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+3042	0	시스템	Home Run Time Over Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+3042	65	안전장치	  Home Run Time Over Error	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+3043	0	시스템	Light Curtain Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+3048	0	시스템	RTV-STK Alive Signal Error	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+3113	0	시스템	UNKNOWN ALARM CODE	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+3126	0	시스템	UNKNOWN ALARM CODE	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+3140	0	시스템	UNKNOWN ALARM CODE	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+3333	9	프로세스	No Define	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+4004	65	안전장치	MC#11 Status Alarm	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4008	65	안전장치	MC#101, 102 Status Alarm	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4011	65	안전장치	All Unit Initial Timeover Alarm	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4016	65	안전장치	2Floor Bumper Sensor Alarm	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4017	65	안전장치	1Floor Bumper Sensor Alarm	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4020	65	안전장치	PIO_Loading  T1(Valid->U_Req) Time over Alarm	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4024	65	안전장치	PIO_Loading  T5(Busy->Compt) Time over Alarm	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4027	0	시스템	LIFT GF Product I/L DET ERROR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+4028	65	안전장치	PIO_Unloading  T1(Valid->L_Req) Time over Alarm	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4033	65	안전장치	PIO_Unloading  T6 (Compt->Ready Off)Time over Alarm	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4034	65	안전장치	PIO_Unloading  T7 (Ready Off->Compt Off)Time over Alarm	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4053	65	안전장치	C/V Work Data Mismatch Alarm	5	DataError	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4054	65	안전장치	Lift Work Data Mismatch Alarm	5	DataError	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4060	65	안전장치	PIO Time Over Alarm	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4062	65	안전장치	Right PIO Abnormal Alarm	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4200	65	안전장치	Stopper Up_Left_ Timeover	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4202	65	안전장치	Stopper Up_Right_Timeover	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4207	65	안전장치	Left_Stopper_Controller_Alarm	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4208	65	안전장치	Right _Stopper_Controller_Alarm	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4301	65	안전장치	Rear_Scanner_OSSD_Alarm	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4351	65	안전장치	ACS ???? Alarm	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4403	65	안전장치	SLAM_ERROR_POS	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4404	65	안전장치	SLAM_ERROR_NOT_ON_PATH	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4406	65	안전장치	SLAM_ERROR_MAP_UPDATE	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4407	65	안전장치	SLAM_ERROR_FRONT_TRACTION_MOTOR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4408	65	안전장치	SLAM_ERROR_REAR_TRACTION_MOTOR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4410	65	안전장치	SLAM_ERROR_REAR_STEERING_MOTOR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4416	65	안전장치	SLAM_ERROR_REAR_ABS_ENCODER	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4442	65	안전장치	SLAM Error Target X Limit Alarm	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4453	65	안전장치	Rear Steering Limit- Alarm	5	DataError	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+4735	65	안전장치	Rear/Right Traction Main Contactor Did Not Close	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+5001	6	설비이상	[C/V] 261.PORT power off	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+5011	8	데이터	[C/V] 271.Data_On, Sensor_Off Overtime	3	DataError	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+5012	8	데이터	[C/V] 272.Data_Off, Sensor_On Overtime	3	DataError	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+5013	6	설비이상	[C/V] 273.TRACK sensor detection abnormalities	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+5091	1	안전	[CV] 274.GF Light Curtain detection abnormality	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+5122	65	안전장치	[R7290_1][A]_[TRAY_LOADING_CV]_MAIN_STEP_AUTOMATIC_OPERATION_TIME_OVER_1	5	작업성	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+5185	65	안전장치	[R7294_0][C]_[TRAY_LOADING_CV]_LIGHT_CURTAIN_DETECT_ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+5442	65	안전장치	[R7690_1][A]_[TRAY_UNLOADING_CV]_MAIN_STEP_AUTOMATIC_OPERATION_TIME_OVER_1	5	작업성	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+5506	65	안전장치	[R7694_1][C]_[TRAY_UNLOADING_CV]_LABLE_AREA_LIGHT_CURTAIN_DETECT_ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+5521	0	시스템	UNKNOWN ALARM CODE	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+5522	0	시스템	UNKNOWN ALARM CODE	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+5524	0	시스템	UNKNOWN ALARM CODE	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+5529	0	시스템	UNKNOWN ALARM CODE	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+6502	65	안전장치	LIFT UP/DOWN ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+6503	65	안전장치	FRONT LIGHT CURTAIN MUTTING ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+6504	65	안전장치	REAR LIGHT CURTAIN MUTTING ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+6505	65	안전장치	DETECT OVER TRAY ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+6507	65	안전장치	ACS AGV ERROR OCCURRED	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+6509	65	안전장치	BCR READ ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+6511	65	안전장치	BCR COMMUNICATION TIMEOUT ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+6512	65	안전장치	DATA MISMATCH SENSOR ON DATA OFF	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+6515	0	시스템	UNKNOWN ALARM CODE	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+7219	65	안전장치	Safety Relay1151SR01,02 Relay On	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+7375	65	안전장치	o1u03   Pallet  ValidateNG	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+7388	65	안전장치	o1u03   Lightcurtain    Alarm	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+7419	65	안전장치	Safety Relay6151SR01,02 Relay On	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+7502	0	시스템	Wrapper Heater Cover Check Alarm	4	Unknown	높음 (빠른 조치 필요, 설비 이상)	33.4%
+7508	0	시스템	Wrapper Heater Temp Alarm	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+7509	0	시스템	Wrapper Carrier ID Check Alarm	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+7510	0	시스템	Wrapper Light Curtain Detect ERROR	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+7515	0	시스템	Unknown Alarm	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+7528	65	안전장치	o7u01   Lightcurtain    Alarm	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+8001	0	시스템	GF STOP TIME OVER	4	설비기인	높음 (빠른 조치 필요, 설비 이상)	33.4%
+8032	0	시스템	LIFT Remember Memory NG	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+9001	9	프로세스	BCR Read Fail	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+9004	9	프로세스	MCS Buzzer	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+9005	9	프로세스	Handy BCR NO READ	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+9006	9	프로세스	No Command From MCS	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+9007	9	프로세스	BCR Disconnect	3	설비기인	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+9306	65	안전장치	[R1199_1][A]INVERTER_RUN_TIME_OVER	5	Unknown	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+9550	0	시스템	UNKNOWN ALARM CODE	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+9721	65	안전장치	[R1795_0][OUTLET CV2][A]CONVEYOR STUCK DETECT ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+9740	65	안전장치	[R1796_3][OUTLET CV2][A]PALLET PRODUCT DATA ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+10000	0	시스템	LAZY_CARRIER	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%
+14123	65	안전장치	[R7295_2][B]_[TRAY_LOADING_CV]_CV#1_PILE_POS_CCW_LIMIT_ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+14124	65	안전장치	[R7295_3][B]_[TRAY_LOADING_CV]_CV#1_PILE_POS_CW_LIMIT_ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+14169	65	안전장치	[R7298_0][C]_TRAY_LOADING_CV]_LIGHT_C_ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+14443	65	안전장치	[R7695_2][B]_[TRAY_UNLOADING_CV]_CV#5_PILE_POS_UP_LIMIT_ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+14444	65	안전장치	[R7695_3][B]_[TRAY_UNLOADING_CV]_CV#5_PILE_POS_DOWN_LIMIT_ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+14485	65	안전장치	[R7697_C][A]_[TRAY_UNLOADING_CV]_AGV_COMP_ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+14489	65	안전장치	[R7698_0][C]_[TRAY_UNLOADING_CV][OUT_LIGHT_CURTAIN]_L_C_ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+14490	65	안전장치	[R7698_1][C]_[TRAY_UNLOADING_CV][WORK_LIGHT_CURTAIN]_L_C_ERROR	5	설비기인	매우 높음 (즉시 조치 필요, 안전 관련 위험)	48.3%
+14521	0	시스템	UNKNOWN ALARM CODE	3	Unknown	중간 (주의 요망, 시스템 및 프로세스 문제)	17.3%

@@ -1,0 +1,33 @@
+# Shiny packages
+shiny>=0.6.0
+shinyswatch>=0.2.2
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.2
+
+# Database
+# sqlite3 is built-in, no need to install
+
+# Visualization
+plotly>=5.15.0
+matplotlib>=3.7.0
+seaborn>=0.13.0
+
+# Date/time processing
+python-dateutil>=2.8.2
+
+# File processing
+pathlib>=1.0.1
+
+# Data export
+xlsxwriter>=3.1.0
+fpdf2>=2.7.5
+
+# Testing
+pytest>=7.3.1
+
+# Development tools
+black>=23.3.0
+flake8>=6.0.0 
