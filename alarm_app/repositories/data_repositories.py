@@ -47,6 +47,156 @@ class CodeMasterRepository:
             category=row[4], 
             eng_category=row[5]
         ) for row in rows]
+    
+    def update_code(self, code: CodeMaster) -> bool:
+        """코드 마스터 데이터 업데이트
+        
+        Args:
+            code: 업데이트할 코드 데이터
+            
+        Returns:
+            bool: 업데이트 성공 여부
+        """
+        conn = self.db_manager.get_connection()
+        try:
+            # code_id를 기본 int 타입으로 변환
+            code_id = int(code.code_id)
+            
+            # 업데이트 전 원본 데이터 확인
+            cursor = conn.cursor()
+            cursor.execute(f"SELECT * FROM code_master WHERE code_id={code_id}")
+            original_row = cursor.fetchone()
+            print(f"[DEBUG] 업데이트 전 원본 데이터: {original_row}")
+            
+            query = """
+            UPDATE code_master 
+            SET type=?, code=?, value=?, category=?, eng_category=?
+            WHERE code_id=?
+            """
+            print(f"[DEBUG] 실행 쿼리: {query}")
+            print(f"[DEBUG] 바인딩 매개변수: {code.type}, {code.code}, {code.value}, {code.category}, {code.eng_category}, {code_id}")
+            
+            cursor.execute(query, (
+                code.type, code.code, code.value, code.category, 
+                code.eng_category, code_id
+            ))
+            conn.commit()
+            success = cursor.rowcount > 0
+            print(f"[DEBUG] Update result: {success}, rows affected: {cursor.rowcount}")
+            
+            # 업데이트 후 데이터 확인
+            cursor.execute(f"SELECT * FROM code_master WHERE code_id={code_id}")
+            updated_row = cursor.fetchone()
+            print(f"[DEBUG] 업데이트 후 데이터: {updated_row}")
+            
+            # 성공하지 못했다면 데이터베이스 테이블 구조를 확인
+            if not success:
+                print("[DEBUG] 테이블 구조 확인:")
+                try:
+                    cursor.execute("PRAGMA table_info(code_master)")
+                    columns = cursor.fetchall()
+                    print(f"[DEBUG] 테이블 칼럼: {columns}")
+                    
+                    cursor.execute(f"SELECT * FROM code_master WHERE code_id={code_id}")
+                    row = cursor.fetchone()
+                    print(f"[DEBUG] code_id={code_id}인 행: {row}")
+                except Exception as e:
+                    print(f"[DEBUG] 테이블 정보 조회 중 오류: {e}")
+                    
+            # 데이터베이스의 모든 코드 로그 출력
+            cursor.execute("SELECT * FROM code_master LIMIT 20")
+            all_rows = cursor.fetchall()
+            print(f"[DEBUG] 전체 데이터 (최대 20개): {all_rows}")
+            
+            return success
+        except Exception as e:
+            print(f"[ERROR] 코드 업데이트 중 오류 발생: {e}")
+            return False
+        finally:
+            conn.close()
+    
+    def delete_code(self, code_id: int) -> bool:
+        """코드 마스터 데이터 삭제
+        
+        Args:
+            code_id: 삭제할 코드 ID
+            
+        Returns:
+            bool: 삭제 성공 여부
+        """
+        conn = self.db_manager.get_connection()
+        try:
+            # code_id를 기본 int 타입으로 변환
+            code_id = int(code_id)
+            
+            cursor = conn.cursor()
+            query = "DELETE FROM code_master WHERE code_id=?"
+            print(f"[DEBUG] Deleting code with ID {code_id}")
+            cursor.execute(query, (code_id,))
+            conn.commit()
+            success = cursor.rowcount > 0
+            print(f"[DEBUG] Delete result: {success}, rows affected: {cursor.rowcount}")
+            
+            # 성공하지 못했다면 데이터베이스 테이블 구조를 확인
+            if not success:
+                print("[DEBUG] 테이블 구조 확인:")
+                try:
+                    cursor.execute("PRAGMA table_info(code_master)")
+                    columns = cursor.fetchall()
+                    print(f"[DEBUG] 테이블 칼럼: {columns}")
+                except Exception as e:
+                    print(f"[DEBUG] 테이블 정보 조회 중 오류: {e}")
+            
+            return success
+        except Exception as e:
+            print(f"[ERROR] 코드 삭제 중 오류 발생: {e}")
+            return False
+        finally:
+            conn.close()
+    
+    def add_code(self, code: CodeMaster) -> bool:
+        """새 코드 마스터 데이터 추가
+        
+        Args:
+            code: 추가할 코드 데이터
+            
+        Returns:
+            bool: 추가 성공 여부
+        """
+        conn = self.db_manager.get_connection()
+        try:
+            cursor = conn.cursor()
+            query = """
+            INSERT INTO code_master (type, code, value, category, eng_category)
+            VALUES (?, ?, ?, ?, ?)
+            """
+            print(f"[DEBUG] 새 코드 추가 시도: {code}")
+            cursor.execute(query, (
+                code.type, code.code, code.value, code.category, code.eng_category
+            ))
+            conn.commit()
+            
+            # 영향 받은 행 수로 성공 여부 확인
+            success = cursor.rowcount > 0
+            
+            if success:
+                # code_id가 자동 생성되므로 마지막 삽입 ID 가져오기
+                code_id = cursor.lastrowid
+                print(f"[DEBUG] 새 코드 추가 성공, ID: {code_id}")
+                
+                # 새로 추가된 데이터 확인
+                cursor.execute(f"SELECT * FROM code_master WHERE code_id={code_id}")
+                new_row = cursor.fetchone()
+                print(f"[DEBUG] 새로 추가된 데이터: {new_row}")
+            else:
+                print("[DEBUG] 코드 추가 실패")
+            
+            return success
+        except Exception as e:
+            print(f"[ERROR] 코드 추가 중 오류 발생: {e}")
+            return False
+        finally:
+            conn.close()
 
 class EquipmentMasterRepository:
     def __init__(self, db_manager: DatabaseManager):

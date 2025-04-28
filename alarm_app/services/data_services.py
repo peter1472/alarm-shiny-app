@@ -21,6 +21,42 @@ class CodeMasterService:
         """카테고리별 코드 조회"""
         all_codes = self.repository.get_all()
         return [code for code in all_codes if code.category == category]
+    
+    def update_code(self, code: CodeMaster) -> bool:
+        """코드 데이터 업데이트
+        
+        Args:
+            code: 업데이트할 코드 데이터
+            
+        Returns:
+            bool: 업데이트 성공 여부
+        """
+        # 리포지토리의 update_code 메서드 호출
+        return self.repository.update_code(code)
+    
+    def delete_code(self, code_id: int) -> bool:
+        """코드 데이터 삭제
+        
+        Args:
+            code_id: 삭제할 코드 ID
+            
+        Returns:
+            bool: 삭제 성공 여부
+        """
+        # 리포지토리의 delete_code 메서드 호출
+        return self.repository.delete_code(code_id)
+        
+    def add_code(self, code: CodeMaster) -> bool:
+        """새 코드 데이터 추가
+        
+        Args:
+            code: 추가할 코드 데이터
+            
+        Returns:
+            bool: 추가 성공 여부
+        """
+        # 리포지토리의 add_code 메서드 호출
+        return self.repository.add_code(code)
 
 class EquipmentMasterService:
     def __init__(self, repository: EquipmentMasterRepository):
